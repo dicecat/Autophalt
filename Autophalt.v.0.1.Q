@@ -140,7 +140,7 @@ Sub mainLoop
 		dailyMPReward = 0
 		timeEnd=Plugin.Sys.GetTime()
 		
-		/*timeElapsed=CLng((timeEnd-timeStart)/6000)
+		timeElapsed=CLng((timeEnd-timeStart)/6000)
 		If nextEurotime - timeElapsed > 0 Then 
 			eurothread = BeginThread(euroMain)
 			For nextEurotime-timeElapsed
@@ -159,7 +159,7 @@ Sub mainLoop
 			Next
 			StopThread eurothread
 			ticketEmpty = 0
-		End If*/
+		End If
 		
 	Wend
 End Sub
@@ -535,24 +535,7 @@ Sub runCarEuro
 		Delay 5000
 
 		'runcar
-		'first stage
-		For pressCount
-			KeyDown "Space", 1
-			Delay 100
-			KeyUp "Space", 1
-			KeyPress "A",1
-		Next
-
-		'second stage
-		For 45
-			KeyPress "A",1
-			KeyDown "S",1
-			Delay 66
-		Next
-		KeyUp "S", 1
-
-		For 9000
-			KeyPress "A",1
+		For 10000
 			KeyDown "Space", 1
 			Delay 10
 			KeyUp "Space", 1
