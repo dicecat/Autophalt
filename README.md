@@ -20,7 +20,7 @@ https://bstweaker.tk/
 http://download.myanjian.com/
 
 配置：
-1. （必要）在BlueStacks中安装好游戏（和梯子），记录狂野飙车9的图标所在列
+1. （必要）设置BlueStacks分辨率为1280，BlueStacks中安装好游戏（和梯子），记录狂野飙车9的图标所在列
 2. （必要）解压BlueStacks Tweaker到任意文件夹，取得BlueStacksTweaker5.exe的路径
 3. （可选）选择多人赛用车的最低等级
 
