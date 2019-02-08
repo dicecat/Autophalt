@@ -28,3 +28,5 @@ http://download.myanjian.com/
 1. 关闭中文输入法
 2. 下载Autophalt.Q，按照上述“配置”一节中的信息，修改配置
 3. 运行按键精灵，加载Autophalt.Q，调试（F5）->运行（Ctrl+CapsLock）
+
+Credits to the authors of BlueStacks, BlueStacks Tweaker, and Anjian!
