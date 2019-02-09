@@ -1,32 +1,30 @@
 # Autophalt
-狂野飙车9脚本
+Asphalt 9 Autobot
 
-主要功能，轮流刷以下赛事：
-1. 888赛事包，AMG基本稳定52秒左右拿3包
-2. 多人赛，自动判别可用车辆，刷满30分钟或可用车辆没油后结束
-3. 欧洲比赛12，若多人赛刷满30分钟则跳过，否则继续刷满30分钟后结束
+Main feature, autoplay the following:
+1. 888 event packs (Max starred AMG required). 52 seconds to finish the race & get 3 packs.
+2. Multiplayer. Auto determine available cars. Play for 30 minutes max or until no fuel.
+3. Euroshowdown. Auto farm credits.
 
-其他小功能：
-1. 断线、卡机自动重连
-2. 免费包自动领取
+Other features:
+1. Auto reconnect on game crash/failure/etc.
+2. Auto collect free pack when available.
 
-运行环境：
-1. 一台空闲的运行Windows系统的电脑
-2. BlueStacks国际版，注意推荐运行配置，太低配置肯导致运行异常
+Prerequisite:
+1. BlueStacks
 https://www.bluestacks.com/
-3. BlueStacks Tweaker
+2. BlueStacks Tweaker
 https://bstweaker.tk/
-4. 按键精灵
+
+Configurations:
+1. (required) BlueStacks resolution set to 1280x720
+2. Run the program and define the variable: Column where Asphalt 9 Icon lies in BlueStacks
+3. Define the variable: Path to BlueStacksTweaker5.exe
+4. (Optional) Define the min rank of cars in multiplayer
+
+Note:
+1. The program is compiled using Anjian
 http://download.myanjian.com/
-
-配置：
-1. （必要）设置BlueStacks分辨率为1280，BlueStacks中安装好游戏（和梯子），记录狂野飙车9的图标所在列
-2. （必要）解压BlueStacks Tweaker到任意文件夹，取得BlueStacksTweaker5.exe的路径
-3. （可选）选择多人赛用车的最低等级
-
-运行：
-1. 关闭中文输入法
-2. 下载Autophalt.Q，按照上述“配置”一节中的信息，修改配置
-3. 运行按键精灵，加载Autophalt.Q，调试（F5）->运行（Ctrl+CapsLock）
+2. Windows Defender will report threat: Unwaders.C!ml(potential junkware). Add the whitelist
 
 Credits to the authors of BlueStacks, BlueStacks Tweaker, and Anjian!
